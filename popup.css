@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.popup{
+    position: absolute;
+    background: #ffffff;
+    width: 50%;
+    height: 90%;
+    left: 25%;
+    top: 5%;
+    /* transform: translate(-50%, -50%); */
+    padding: 1%;
+    padding-left: 2%;
+    border-radius: 50px;
+    border: 4px solid #4BB512;
+}
+.close{
+    display: none;
+}
+
+.popup-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    z-index: 200;
+    display: none;
+}
+.popup img{
+    width: 2%;
+    height: 2%;
+    position: absolute;
+    right: 4%;
+    top: 4%;
+}
+.popup form textarea{
+    /* display: block;
+    margin: 0 auto; */
+    margin-top: 2%;
+    font-size: 1.1em;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    resize: none;
+    border-radius: 12px;
+    padding: 1%;
+    
+}
+
+.author{
+    font-size: 1.125em;
+    color: rgb(47, 16, 16);
+    font-weight: 500;
+    margin-bottom: 2%;
+    margin-top: 6%;
+}
+.categ{
+    font-size: 1.125em;
+    color: rgb(47, 16, 16);
+    font-weight: 500;
+    margin-bottom: 2%;
+    margin-top: 6%;
+}
+.name{
+    font-size: 1.125em;
+    color: rgb(47, 16, 16);
+    font-weight: 500;
+    margin-bottom: 2%;
+    margin-top: 6%;
+}
+.ph{
+    font-size: 1.125em;
+    color: rgb(47, 16, 16);
+    font-weight: 500;
+    margin-top: 6%;
+}
+.ph span{
+    color: darkgray;
+    font-size: 0.675em;
+}
+.phline input{
+    width: 47%;
+}
+.phline{
+    width: 90%;
+    padding: 3%;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 2%;
+}
+.down a{
+    color: #66A479;
+}
+.phline input{
+    border-color: #66A479;
+}
+input{
+    width: 80%;
+    font-size: 1em;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    border-radius: 12px;
+    border-width: 1px;
+    padding: 1%;
+}
+.btn3{
+    margin: 0 auto;
+    width: 34%;
+    height: 5vh;
+    background: linear-gradient(272.62deg, #45B700 -3.79%, #8790F5 187.32%);
+    border-radius: 15px;
+    margin-top: 2%;
+}
+.btn3:hover{
+    transform: scale(1.06);
+    transition-duration: 300ms;
+}
+.btn3 a{
+    color: rgb(255, 255, 253);
+    font-family:'Roboto', sans-serif;
+    font-size: 0.875em;
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.authorprim,.nameprim,.categprim{
+    font-size: 0.775em;
+    color: #F80C0C;
+    font-weight: 300;
+
+}
+
+
+.no-scroll{
+    overflow: hidden;
+}
