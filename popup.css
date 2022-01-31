@@ -4,7 +4,7 @@
 
 
 .popup{
-    position: absolute;
+    position: relative;
     background: #ffffff;
     width: 50%;
     height: 90%;
@@ -38,46 +38,45 @@
     top: 4%;
 }
 .popup form textarea{
-    /* display: block;
-    margin: 0 auto; */
-    margin-top: 2%;
+    width: 100%;
+    margin: 0 auto; 
     font-size: 1.1em;
     font-family:'Roboto', sans-serif;
     font-weight: 400;
     resize: none;
     border-radius: 12px;
     padding: 1%;
-    
 }
 
-.author{
+/* .author{
     font-size: 1.125em;
     color: rgb(47, 16, 16);
     font-weight: 500;
     margin-bottom: 2%;
     margin-top: 6%;
-}
-.categ{
+} */
+/* .categ{
+    font-size: 1.125em;
+    color: rgb(47, 16, 16);
+    font-weight: 500;
+    /* margin-bottom: 2%; */
+    /* margin-top: 1%;
+} */
+/* .name{
     font-size: 1.125em;
     color: rgb(47, 16, 16);
     font-weight: 500;
     margin-bottom: 2%;
-    margin-top: 6%;
-}
-.name{
-    font-size: 1.125em;
-    color: rgb(47, 16, 16);
-    font-weight: 500;
-    margin-bottom: 2%;
-    margin-top: 6%;
-}
-.ph{
+    margin-top: 17%;
+    /* margin: 0 auto; */
+/* }  */
+/* .ph{
     font-size: 1.125em;
     color: rgb(47, 16, 16);
     font-weight: 500;
     margin-top: 6%;
-}
-.ph span{
+} */
+/* .ph span{
     color: darkgray;
     font-size: 0.675em;
 }
@@ -92,13 +91,13 @@
     justify-content: space-between;
     align-items: baseline;
     margin-top: 2%;
-}
-.down a{
+} */
+/* .down a{
     color: #66A479;
 }
 .phline input{
     border-color: #66A479;
-}
+}*/
 input{
     width: 80%;
     font-size: 1em;
@@ -107,14 +106,19 @@ input{
     border-radius: 12px;
     border-width: 1px;
     padding: 1%;
-}
+} 
+
 .btn3{
-    margin: 0 auto;
+    /* margin: 0 auto; */
     width: 34%;
     height: 5vh;
     background: linear-gradient(272.62deg, #45B700 -3.79%, #8790F5 187.32%);
     border-radius: 15px;
-    margin-top: 2%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 2%;
+    left: 33%;
+    
 }
 .btn3:hover{
     transform: scale(1.06);
@@ -132,13 +136,29 @@ input{
     align-items: center;
 }
 .authorprim,.nameprim,.categprim{
-    font-size: 0.775em;
+    margin-top: 4px;
+    font-size: 0.87em;
     color: #F80C0C;
     font-weight: 300;
-
 }
-
-
 .no-scroll{
     overflow: hidden;
+}
+.yes-scroll{
+    overflow:auto;
+}
+
+.container2{
+    width: 85%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 12% auto;
+}
+.author,.categ,.name{
+    margin-bottom: 14px;
+    font-size: 1.125em;
+    color: rgb(47, 16, 16);
+    font-weight: 500;
 }

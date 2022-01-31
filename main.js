@@ -8,4 +8,5 @@ $('.close-popup').click(function(e){
     e.preventDefault();
     $('.popup-bg').fadeOut(300);
     $('.popup-bg').addClass('close');
+    $('html').addClass('yes-scroll')
 });

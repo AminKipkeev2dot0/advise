@@ -7,7 +7,8 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #FEFDEF;
+    /* background-color: #FEFDEF; */
+    background-image: url('icons/bg_plot.svg');
     font-size: 16px;
     font-family:'Roboto', sans-serif;
     font-weight: 400;
@@ -158,11 +159,16 @@ a{
 }
 .plot{
     width: 80%;
-    height: auto;
-    background-image: url("icons/Rectangle 59.svg");
+    height:fit-content;
+    /* background-image: url("icons/Rectangle 59.svg"); */
+    background-image: url('icons/Rectangle 59.svg');
+    /* background-position: right; */
+
     background-repeat: no-repeat;
     background-attachment:fixed;
+    background-size:auto;
     background-position: 60% 50%;
+
     /* padding-left: 13.44%; */
     /* border: 5px dotted brown; */
     
