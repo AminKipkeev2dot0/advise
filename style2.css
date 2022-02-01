@@ -13,6 +13,10 @@ body{
     font-family:'Roboto', sans-serif;
     font-weight: 400;
 }
+.appeal2{
+    display: none;
+    visibility: hidden;
+}
 ul{
     list-style: none;
     padding: 0;
@@ -213,6 +217,5 @@ a{
 .btn2:hover{
     transform: scale(1.06);
     transition-duration: 300ms;
-
 }
 
