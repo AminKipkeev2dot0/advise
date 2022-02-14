@@ -5,6 +5,15 @@
         height: 26vh;
         background: #fffeec;
         box-shadow: none;  
+        overflow: hidden;
+    }
+    .appeal{
+        display: none;
+        visibility: hidden;
+    }
+    .btn2{
+        display: none;
+        visibility: hidden;
     }
     .menu ul{
         margin-top: 23px;
@@ -50,6 +59,7 @@
     }
     
     .plot{
+        padding-top: 26vh;
         width: 100%;
         background-image: url('icons/ss.svg');
     }
