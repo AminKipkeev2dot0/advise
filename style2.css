@@ -198,6 +198,22 @@ a{
     filter: drop-shadow(0px 4px 31px #C45B5B);
     border-radius: 19px;
 }
+.btn2_adaptive{
+    background-color: #80ED99;
+    color: #873434;
+    width: 62%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.875em;
+    font-family:'Roboto', sans-serif;
+    font-weight: 300;
+    filter: drop-shadow(0px 4px 31px #C45B5B);
+    border-radius: 19px;
+    visibility: hidden;
+    display:none;
+}
 
 .btn2 a{
     width: 100%;

@@ -1,29 +1,40 @@
-@media screen and (min-width: 0px) and (max-width: 600px){
+
+/* for 5s verical */
+@media screen and (min-width: 0) and (max-width: 600px)and (max-height: 600px){
     
     .menu{
         width: 100%;
-        height: 24vh;
+        height: 26vh;
         background: #fffeec;
-        border-bottom-left-radius: 40px;
-        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
         box-shadow:none;  
         overflow: hidden;
+        background: rgba( 223, 71, 71, 0.2 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 20px );
+        -webkit-backdrop-filter: blur( 20px );
     }
     .appeal{
         display: none;
         visibility: hidden;
     }
     .btn2{
-        /* display: none;
-        visibility: hidden; */
-        position: inherit;
-        bottom: 3%;
+        display: none;
+        visibility: hidden;
+    }
+    .btn2_adaptive{
+        visibility: visible;
+        display: flex;
+        position: fixed;
+        z-index: 99;
+        bottom: 6%;
         margin-top: 50%;
+        margin-left: 27.5%;
         background-color: #80ED99;
         color: #873434;
-        width: 37%;
-        height: 5vh;
-        display: flex;
+        width: 45%;
+        height: 6vh;
         justify-content: center;
         align-items: center;
         font-size: 0.875em;
@@ -34,7 +45,7 @@
     }
     .menu ul{
         
-        width: 80%;
+        width: 84%;
         height:30px;
         flex-direction: row;
         justify-content: space-between;
@@ -42,26 +53,31 @@
     }
     
     .menu ul li{
-        background-color: #FF9072;
+        background-color: #f56b46;
         font-family: 'Roboto', sans-serif;
         font-size: 0.7em;
-        height: 30px;
-        width: 70px;
+        height: 23px;
+        width: 62px;
         border-radius: 19px;
+        margin-top: 27px;
     }
     .menu ul li a{
         color: white ;
     }
-
+    .logo{
+        margin-top: 9%;
+    }
     .logo a{
-        color:rgba(76, 78, 103, 1); 
+        font-size: 2.3em;
+        /* color:rgba(76, 78, 103, 1);  */
+        color:rgb(80, 84, 143); 
+
     }
     .appeal2{
         display: block;
         visibility: visible;
         color: rgb(90, 24, 4);
-        margin-top: 17px;
-        
+        margin-top: 0;  
     }
     .menu ul li a:hover{
         width:inherit;
@@ -82,15 +98,17 @@
         margin: 0 auto;
         width: 93%;
         height: 21vh;
+        background-color: #83b9ffcf
     }
     .quotetext{
         width: 96%;
-        font-size: 1.3em;
+        font-size: 1em;
         letter-spacing: 0.7px;
+        /* color: white; */
     }
     .quotespeaker{
         bottom: 15%;
-        font-size: 1.1em;
+        font-size: 0.9em;
         color: rgb(63, 39, 19);;
     }
     .posting{
@@ -99,6 +117,7 @@
     .whopost{
         margin-left: 7%;
         margin-bottom: 1%;
+        font-size: 0.6em;
     }
     .popup{
         width: 96%;
