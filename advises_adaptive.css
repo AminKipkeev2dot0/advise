@@ -44,8 +44,7 @@
         border-radius: 19px;
     }
     .menu ul{
-        
-        width: 84%;
+        width: 130%;
         height:30px;
         flex-direction: row;
         justify-content: space-between;
@@ -66,6 +65,7 @@
     }
     .logo{
         margin-top: 9%;
+        margin-bottom: 0;
     }
     .logo a{
         font-size: 2.3em;
@@ -120,11 +120,31 @@
         font-size: 0.6em;
     }
     .popup{
+        border-radius: 30px;
         width: 96%;
-        height: 76%;
+        height: 90%;
         left: 2%;
         
     }
-    
+    .popup form textarea {
+        font-size: 0.8em;
+    }
+    .author,.categ,.name{
+        margin-bottom:8px;
+        font-size: 0.8em;
+        
+    }
+    .authorprim,.nameprim,.categprim{
+        margin-top: 4px;
+        font-size: 0.7em;
+        color: #F80C0C;
+        font-weight: 300;
+    }
+    .popup img{
+        width:4.5%;
+    }
+    .container2{
+        height: 400px;
+    }
         
 }
