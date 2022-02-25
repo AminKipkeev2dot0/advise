@@ -10,3 +10,9 @@ $('.close-popup').click(function(e){
     $('.popup-bg').addClass('close');
     $('html').addClass('yes-scroll')
 });
+
+$('ul').flickity({
+    // options
+    cellAlign: 'left',
+    contain: true
+  });
